@@ -1,0 +1,9 @@
+- name: Maestro Workflow Conductor
+  github_url: https://github.com/LLNL/maestrowf
+  pypi_url: https://pypi.org/project/maestrowf/
+  docs: http://maestrowf.readthedocs.io/en/latest/
+  logo: maestrowf.png
+  description:
+      Maestro Workflow Conductor (MaestroWF) is a Python tool developed to provide a framework for specifying repeatable workflows. The core principles of its design aim to encourage workflows designed around consistency, repeatability, and self-documentation. Maestro accomplishes these principles via the processing of a  human-readable YAML specification called a "study specification" that describes the environment, workflow steps, and user parameters. The backend tool parses the specification, creates an execution plan, and executes the workflow automatically.
+
+      While Maestro currently supports multi-stage workflows and automatic monitoring of execution, the wider goal is to develop Maestro as the building block that fits within a larger workflow system that supports modern GUI interfaces, large scale execution, and study campaign construction and tracking.
