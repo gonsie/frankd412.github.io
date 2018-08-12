@@ -1,12 +1,24 @@
 # Site settings
-title:
-email:
+title: "Adventures in Software Engineering"
+author: Frank Di Natale
+email: "frank.dinatale1988@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://frankd412.github.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+# Social media information
+twitter_username:   "@therapiditalian"
+github_username:    FrankD412
+linkedin_url:       "https://www.linkedin.com/in/francesco-di-natale-08330867/"
 
 # Build settings
 markdown: kramdown
+
+
+# Navigation options
+nav:
+    # Name:     html file name
+    About:      call-to-action
+    Services:   services
+    Portfolio:  portfolio
+    Contact:    contact
